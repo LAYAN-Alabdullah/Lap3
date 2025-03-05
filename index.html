@@ -1,185 +1,61 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-CV</title>
-    <style>
-        /* تنسيق الخلفية والمحتوى العام */
-        body {
-            font-family: 'Garamond', serif;
-            background: url('https://images.pexels.com/photos/2644887/pexels-photo-2644887.jpeg') no-repeat center center fixed;
-            background-size: cover;
-            color: #F3F3F3;
-            margin: 0;
-            padding: 0;
-        }
-
-        .overlay {
-            background: rgba(0, 0, 0, 0.6);
-            padding: 30px;
-            text-align: center;
-            width: 90%;
-            max-width: 800px;
-            margin: 50px auto;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-        }
-
-        /* تنسيق العنوان الرئيسي */
-        h1 {
-            font-size: 3em;
-            color: #F1D000;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-            margin-bottom: 20px;
-        }
-
-        /* تنسيق العنوان الفرعي */
-        h2 {
-            font-size: 2.2em;
-            color: #F3F3F3;
-            margin-bottom: 15px;
-        }
-
-        /* تنسيق النصوص */
-        .sub-text {
-            font-size: 1.2em;
-            color: #D1CFCF;
-            line-height: 1.6;
-        }
-
-        /* تنسيق قائمة الروابط */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin-top: 20px;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 15px;
-            font-size: 1.2em;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #F1D000;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #E4C590;
-        }
-
-        /* تمييز النص */
-        .highlight {
-            background: rgba(255, 215, 0, 0.3);
-            padding: 10px;
-            border-radius: 5px;
-            display: inline-block;
-        }
-
-        /* تنسيق الجدول */
-        table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-            text-align: center;
-        }
-
-        table th, table td {
-            padding: 12px;
-            border: 1px solid #ddd;
-            font-size: 1.2em;
-        }
-
-        table th {
-            background-color: #F1D000;
-            color: white;
-        }
-
-        table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        /* تنسيق التذييل */
-        footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #D1CFCF;
-        }
-
-        /* تنسيق الصورة الشخصية */
-        .profile-img {
-            border-radius: 50%;
-            border: 4px solid #fff;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-            width: 150px;
-            height: 150px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-        <!-- اسمك كعنوان رئيسي -->
-        <h1>اسمك هنا</h1>
-
-        <!-- تخصصك كعنوان فرعي -->
-        <h2>تخصصك هنا</h2>
-
-        <!-- نبذة عنك كبرقراف -->
-        <p class="sub-text">
-            مرحبًا! أنا [اسمك هنا]، متخصص في [تخصصك]. لدي شغف بـ [أذكر اهتمامك أو ما تحب فعله] وأبحث دائمًا عن فرص لتطوير مهاراتي في [المجال أو التقنية التي تهتم بها].
+    <div class="container">
+        <!-- تعديل الأبعاد وإضافة alt للصورة -->
+        <img class="header-img" src="https://i.pinimg.com/736x/dc/f6/cd/dcf6cd42d6eba44ba4bbf1dc181a5705.jpg" 
+             alt="Layan's Professional Image" width="300" height="300">
+        
+        <h1>LAYAN Al-Abdullah</h1>
+        
+        <h2>Information Technology</h2>
+        
+        <p>
+            Hello! I am Layan, an IT specialist. I am passionate about web development and always looking for opportunities to enhance my programming skills.
         </p>
-
-        <!-- لسته فيها Email وروابط حساباتك في LinkedIn و GitHub -->
-        <nav>
-            <ul>
-                <li><a href="mailto:your-email@example.com">Email</a></li>
-                <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li>
-            </ul>
-        </nav>
-
-        <!-- عنوان فرعي باسم "لغات البرمجة المتقنة" -->
-        <h3 class="highlight">لغات البرمجة المتقنة</h3>
-
-        <!-- جدول يحتوي على لغات البرمجة ومستوى الخبرة -->
+        
+        <!-- لستة البريد الإلكتروني وروابط الحسابات -->
+        <ul>
+            <li>Email: <a href="mailto:lulu.042m@gmail.com">lulu.042m@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/layan-Al-abdullah" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/LAYAN-Alabdullah" target="_blank">GitHub</a></li>
+        </ul>
+        
+        <h3>لغات البرمجة المتقنة</h3>
+        
+        <!-- جدول لغات البرمجة مع مستوى الخبرة -->
         <table>
             <thead>
                 <tr>
-                    <th>لغة البرمجة</th>
+                    <th>اللغة</th>
                     <th>مستوى الخبرة</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>HTML</td>
-                    <td>متقدم</td>
+                    <td>Expert</td>
                 </tr>
                 <tr>
                     <td>CSS</td>
-                    <td>متوسط</td>
+                    <td>Advanced</td>
                 </tr>
                 <tr>
                     <td>JavaScript</td>
-                    <td>متقدم</td>
+                    <td>Intermediate</td>
                 </tr>
                 <tr>
                     <td>Python</td>
-                    <td>مبتدئ</td>
+                    <td>Intermediate</td>
                 </tr>
             </tbody>
         </table>
-
-        <!-- التوقيع/footer -->
-        <footer>
-            <p>© 2025 جميع الحقوق محفوظة</p>
-        </footer>
     </div>
-
 </body>
 </html>
